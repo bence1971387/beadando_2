@@ -53,7 +53,6 @@ public class OpenGLRenderer implements GLSurfaceView.Renderer {
         GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
         mTriangle.setColor(getRgb());
         mTriangle.draw();
-        //hue = ((Math.sin(System.currentTimeMillis() * 1 * Math.PI * hue / DURATION) * 0.5 ) + 0.5);
     }
     public static int loadShader(int type, String shaderCode){
 
